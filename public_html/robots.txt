@@ -1,0 +1,12 @@
+User-agent: *
+# 1. Block access to private folders
+Disallow: /cgi-bin/
+Disallow: /private/
+Disallow: /tmp/
+
+# 3. Allow everything else
+Allow: /
+
+# 4. List all your sitemaps
+Sitemap: https://societalnews.com/news-sitemap.xml
+Sitemap: https://societalnews.com/sitemap.xml
