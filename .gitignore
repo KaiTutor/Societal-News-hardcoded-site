@@ -1,2 +1,4 @@
+env
+/__pycache__
 .htaccess
 .DS_Store
