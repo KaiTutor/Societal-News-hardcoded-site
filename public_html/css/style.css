@@ -77,13 +77,97 @@ nav a {
   text-align: center;
   padding: 3rem 1rem;
   
-  background-image: url('/assets/you-live-here.jpg');
+  background-image: 
+    radial-gradient(circle, transparent 60%, rgba(0,0,0,0.4) 100%),
+    url('/assets/you-live-here.jpg');
   background-size: cover;             /* cover entire section */
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5), 0px 6px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+.ru-hero {
+  background-color: #5f5f5f;
+  background-image: 
+    radial-gradient(circle, transparent 60%, rgba(0,0,0,0.4) 100%), 
+    url('/assets/russia-ukraine-war-profile.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* The "Fix" */
+  min-height: 280px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5), 0px 6px 20px 0px rgba(0, 0, 0, 0.4);
+  padding: 1rem 1rem;
+}
+.sn-hero {
+  background-color: #5f5f5f;
+  background-image: 
+    radial-gradient(circle, transparent 60%, rgba(0,0,0,0.4) 100%), 
+    url('/assets/societal-news-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* The "Fix" */
+  min-height: 280px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5), 0px 6px 20px 0px rgba(0, 0, 0, 0.4);
+  padding: 1rem 1rem;
+}
+.gc-hero {
+  background-color: #5f5f5f;
+  background-image: 
+    radial-gradient(circle, transparent 60%, rgba(0,0,0,0.4) 100%), 
+    url('/assets/images/geopolitics-profile-01.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* The "Fix" */
+  min-height: 280px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5), 0px 6px 20px 0px rgba(0, 0, 0, 0.4);
+  padding: 1rem 1rem;
+}
+.ai-hero {
+  background-color: #5f5f5f;
+  background-image: 
+    radial-gradient(circle, transparent 60%, rgba(0,0,0,0.4) 100%), 
+    url('/assets/images/ai-data-center.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* The "Fix" */
+  min-height: 280px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5), 0px 6px 20px 0px rgba(0, 0, 0, 0.4);
+  padding: 1rem 1rem;
 }
 
 .hero h1 {
